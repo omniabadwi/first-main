@@ -1,0 +1,37 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+
+    
+
+}
+.sty2{
+    width: 100%;
+    box-shadow: 0px 2px 15px #A9543F;
+    padding: 20px;
+}
+.intsty{
+    padding: 10px 20px;
+    width: 50%;
+    outline: none;
+    border: 2px solid white;
+    box-shadow: 0px 0px 1px 1px #A9543F ;
+    transition: 0.3s;
+    margin-bottom: 8px;
+}
+.intsty:focus{
+    border: 2px solid #A9543F;
+}
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    margin-top: 40px;
+}
+
+   
